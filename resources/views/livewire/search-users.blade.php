@@ -1,5 +1,5 @@
 <div class="text-lg">
-    <table class="table-auto">
+    <table wire:loading.remove class="table-auto">
         <tbody>
             <tr class="bg-gray-100">
                 <td class="border px-4 py-2">
@@ -20,4 +20,7 @@
             </tr>
         </tbody>
     </table>
+    <div class="searching" wire:loading>
+        Searching users<span>.</span><span>.</span><span>.</span>
+    </div>
 </div>
