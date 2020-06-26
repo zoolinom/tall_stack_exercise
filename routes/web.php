@@ -23,3 +23,4 @@ Route::get('/counter-alpine', function () {
 
 Route::livewire('/counter-livewire', 'counter');
 Route::livewire('/search', 'search-users');
+Route::livewire('/all-users', 'paginate-example');
