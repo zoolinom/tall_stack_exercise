@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/counter-alpine', function () {
     return view('counter-alpine');
 });
+
+Route::livewire('/counter-livewire', 'counter');
