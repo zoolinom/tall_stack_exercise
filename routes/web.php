@@ -21,6 +21,10 @@ Route::get('/counter-alpine', function () {
     return view('counter-alpine');
 });
 
+Route::get('/dropdown-example', function () {
+    return view('dropdown-example');
+});
+
 Route::livewire('/counter-livewire', 'counter');
 Route::livewire('/search', 'search-users');
 Route::livewire('/all-users', 'paginate-example');

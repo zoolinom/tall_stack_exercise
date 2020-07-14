@@ -1,0 +1,1 @@
+<li class="hover:bg-gray-200 px-4 py-1" @click="$dispatch('custom-event', { dropdown: $event.target.innerHTML }); open = false">{{ $slot }}</li>
